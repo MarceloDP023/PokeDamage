@@ -20,3 +20,7 @@ de forma rápida, le haría usar su tiempo de forma mucho más óptima.
 
 ![Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
 
+## Configuración de GIT
+
+[Configuración](Configuracion/configuracion.md)
+
