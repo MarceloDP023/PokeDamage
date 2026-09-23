@@ -24,3 +24,7 @@ de forma rápida, le haría usar su tiempo de forma mucho más óptima.
 
 [Configuración](Configuracion/configuracion.md)
 
+## Datos
+
+[Obtención de los Datos](Datos/datos.md)
+
