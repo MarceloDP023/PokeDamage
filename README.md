@@ -19,8 +19,7 @@ que posea ventaja frente al tipo del Pokemon en contra le hará el doble de dañ
 Luego estos Pokemon poseen habilidades que pueden tener diferentes efectos en combate, como aumentos de daños, pasivas, etc...
 aunque las importantes aquí son las que afectan directamente al daño que pueden llegar a inflingir. En los combates hay 
 Climas que alteran las estadísticas y daños de ciertos tipos de movimientos, dependiendo del clima. Y por último se puede
-realizar un aumento de las estadísticas de los Pokemon con unos puntos denominados EVs, los cuales solo pueden aumentar se
-distribuyen en 66 puntos que se pueden repartir a gusto del jugador.
+realizar un aumento de las estadísticas de los Pokemon con unos puntos denominados EVs, en concreto 66 puntos que se pueden repartir a gusto del jugador.
 
 En este tus Pokemon pueden utilizar diferentes movimientos (Solo pueden aprender 4, y deben ser movimientos capaces de aprender por este mismo ) y pueden configurarse de diferentes maneras, modificando sus estadísticas, habilidades y otros parámetros. Además de tener que contar con la configuración 
 que puede llevar nuestro rival y condiciones ajenas a las configuraciones de los Pokemon que afectan al combate. 
