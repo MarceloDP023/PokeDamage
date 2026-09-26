@@ -1,49 +1,75 @@
 # PokeDamage
 
-
 ## Cartas del juego de rol (Hecho en clase, pasado a limpio en casa)
-
-## Descripción del Problema
-
-El cliente Marcelo Díaz Pérez, jugador profesional de Pokémon, entrena de forma poco
-óptima para sus torneos, haciendo que no consiga el rendimiento que el esperaría tener, lo
-que puede hacer peligrar su carrera. 
-
-Este juego se basa en un combate por turnos, donde combaten equipos de 6 Pokemon (De los que se eligen 4 antes de empezar
-el combate) en los que solo puede haber 2 en combate,(por lo que tratamos situaciones de 2 vs 2) donde se busca debilitar 
-a todos los pokemon del rival, obviamente sin que debiliten a los tuyos. Los Pokemon poseen estadísticas (Ataque Físico, 
-Ataque Especial, Defensa Física, Defensa Especial y Velocidad), las estadísticas de ataque determinarán la potencia final de un 
-ataque de esa categoría, las defensas la mitigación de daño que tendrá contra esa categoría de ataque y la velocidad determina quien 
-ataca primero en el turno. Estos Pokemon poseen Tipos (también los movimientos) que poseen ventajas y desventajas entre ellos, un movimiento de un tipo
-que posea ventaja frente al tipo del Pokemon en contra le hará el doble de daño y si posee desventaja le hará la mitad.
-Luego estos Pokemon poseen habilidades que pueden tener diferentes efectos en combate, como aumentos de daños, pasivas, etc...
-aunque las importantes aquí son las que afectan directamente al daño que pueden llegar a inflingir. En los combates hay 
-Climas que alteran las estadísticas y daños de ciertos tipos de movimientos, dependiendo del clima. Y por último se puede
-realizar un aumento de las estadísticas de los Pokemon con unos puntos denominados EVs, en concreto 66 puntos que se pueden repartir a gusto del jugador.
-
-En este tus Pokemon pueden utilizar diferentes movimientos (Solo pueden aprender 4, y deben ser movimientos capaces de aprender por este mismo ) y pueden configurarse de diferentes maneras, modificando sus estadísticas, habilidades y otros parámetros. Además de tener que contar con la configuración 
-que puede llevar nuestro rival y condiciones ajenas a las configuraciones de los Pokemon que afectan al combate. 
-Esto genera un grán abanico de posibilidades que llegan a ser prácticamente imposibles de probar todas, debido a las extensas modificaciones que se
-pueden a hacer a un Pokemon, a las sinergias que pueden tener entre ellos y a la gran variedad de estos (Actualmente hay unos 1025 Pokemon).
-
-Marcelo para poder probar estas combinaciones, debe de probarlas manualmente y ver como estos se pueden 
-llegar a comportar contra los posibles equipos enemigos, este proceso conlleva una grán cantidad de tiempo,
-que incluso puede llegar a desperdiciarse por completo si ese equipo que ha querido comprobar no le convence. 
-Con el añadido de que preparar un equipo es una tarea tediosa.
-
-El problema consiste en reducir el tiempo necesario para analizar las distintas combinaciones de equipos y 
-incluso hacer del entrenamiento algo mas ágil y cómodo añadiendo un refuerzo positivo a este. Ya que sería
-mucho más fácil simular situaciones de combate que puedan llegar a pasar, en vez de jugar partidas como loco, gastando 
-una grán cantidad de tiempo e incluso llegando a ni si quiera ver todas las diferentes situaciones.
-
-Por lo que para realizar este trabajo se deberá trabajar con las estadísticas de los Pokemon, sus posibles
-movimientos, habilidades, tipos y condiciones externas (EVs, climas,...)
 
 ![Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
 
-
-
 ![Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
+
+## Descripción del problema
+
+Marcelo Díaz Pérez participa en competiciones de Pokémon y dedica parte de su
+entrenamiento a preparar su equipo y practicar cómo responder ante diferentes
+situaciones que pueden aparecer durante un combate.
+
+En una partida, cada jugador utiliza un equipo de Pokémon. Cada Pokémon tiene
+unas estadísticas, uno o dos tipos, una habilidad y un conjunto limitado de
+movimientos. Además, el jugador puede modificar parte de sus estadísticas
+mediante los EVs y existen condiciones del combate, como el clima, que pueden
+modificar el daño producido.
+
+Todo esto hace que una misma acción pueda tener resultados diferentes dependiendo
+de la configuración del Pokémon atacante, la del defensor, el movimiento elegido
+y las condiciones presentes en ese momento.
+
+La preparación de un equipo no consiste únicamente en elegir qué Pokémon utilizar.
+También es necesario comprobar si determinadas configuraciones permiten responder
+correctamente ante situaciones que el jugador considera importantes. Por ejemplo,
+puede necesitar saber si un movimiento de menor potencia pero mayor precisión es
+suficiente para debilitar a un rival, o si necesariamente debe utilizar otro más
+potente pero con riesgo de fallar.
+
+Actualmente, muchas de estas situaciones se comprueban jugando partidas de
+entrenamiento. El problema es que una partida real no permite controlar qué
+situaciones van a aparecer. Para estudiar un caso concreto puede ser necesario
+jugar muchas partidas hasta encontrar unas condiciones similares, y algunas
+situaciones poco frecuentes pueden no aparecer durante el entrenamiento y sí
+hacerlo posteriormente en un torneo.
+
+Además, antes de utilizar una configuración es necesario invertir tiempo en
+prepararla. Si después de probarla el jugador descubre que no responde bien a las
+situaciones que quería cubrir, parte de ese tiempo de preparación se ha empleado
+en una configuración que finalmente será descartada.
+
+Por tanto, el problema consiste en facilitar el análisis previo de situaciones
+concretas de combate para reducir el tiempo empleado en preparar y comprobar
+configuraciones y permitir que el entrenamiento se centre en aquellas decisiones
+que realmente necesitan ser practicadas.
+
+No se pretende analizar automáticamente todas las combinaciones posibles del
+juego, sino permitir estudiar casos concretos que el propio jugador considere
+relevantes para la preparación de un torneo.
+
+### Lógica de negocio prevista
+
+Para analizar una situación será necesario combinar información del Pokémon
+atacante, del defensor y del estado del combate.
+
+A partir de sus estadísticas base y de su configuración se deberán obtener las
+estadísticas efectivas de ambos Pokémon. Después habrá que determinar qué
+estadísticas intervienen según el movimiento utilizado y aplicar los distintos
+modificadores que afectan al daño, entre ellos la potencia y categoría del
+movimiento, los tipos del atacante y del defensor, la efectividad entre tipos,
+las habilidades, la naturaleza, los EVs y determinadas condiciones del combate.
+
+El daño tampoco es un valor completamente fijo, ya que incluye una variación
+aleatoria. Por ello, para una situación concreta no bastará con obtener un único
+valor, sino que se podrá calcular el rango de daño posible y determinar en qué
+casos ese daño sería suficiente para debilitar al adversario.
+
+Esta lógica permitirá comparar varias decisiones dentro de una misma situación,
+por ejemplo dos movimientos posibles, sin necesidad de simular un combate
+completo ni recorrer todas las combinaciones existentes en el juego.
 
 ## Configuración de GIT
 
