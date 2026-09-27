@@ -71,6 +71,16 @@ Esta lógica permitirá comparar varias decisiones dentro de una misma situació
 por ejemplo dos movimientos posibles, sin necesidad de simular un combate
 completo ni recorrer todas las combinaciones existentes en el juego.
 
+## Planificación
+
+La planificación inicial del proyecto se ha realizado a partir del recorrido del
+usuario, las historias de usuario y una serie de productos mínimamente viables
+organizados en milestones.
+
+- [User Journey](docs/User_Journey.md)
+- [Historias de usuario](https://github.com/MarceloDP023/PokeDamage/issues?q=is%3Aissue%20label%3Auser-stories)
+- [Milestones](https://github.com/MarceloDP023/PokeDamage/milestones)
+
 ## Configuración de GIT
 
 [Configuración](Configuracion/configuracion.md)
