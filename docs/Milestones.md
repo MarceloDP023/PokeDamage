@@ -1,43 +1,35 @@
 # Milestones
 
-## Milestone 0 — Modelo de una situación de combate
+## Milestone 0 — Base de PokeDamage
 
-Primera base interna del proyecto para poder representar una situación sencilla
-de combate entre dos Pokémon.
+Primera versión interna del proyecto, centrada en dejar preparada la base sobre
+la que se construirá el resto de la aplicación.
 
-En esta etapa se definirán los datos necesarios para describir al atacante, al
-defensor, el movimiento utilizado y el resto de información básica que haga falta
-para trabajar después con el cálculo de daño.
+Se entregará como una parte independiente del proyecto que permita representar
+una situación sencilla de combate con los datos necesarios.
 
-La idea es empezar con un caso simple y no intentar cubrir desde el principio
-todas las reglas y situaciones posibles del juego.
-
-Se considerará terminado cuando se pueda crear correctamente una situación de
-combate con estos datos.
+Se considerará terminada cuando esa base pueda utilizarse correctamente desde el
+resto del proyecto sin depender todavía de una interfaz de usuario.
 
 
-## Milestone 1 — Cálculo básico de daño
+## Milestone 1 — Lógica de PokeDamage
 
-Segunda versión interna del proyecto, construida sobre el modelo anterior, que
-añada la lógica necesaria para calcular el daño en situaciones sencillas de combate.
+Segunda versión interna del proyecto, construida sobre la base anterior.
 
-Todavía no será una versión pensada para que la utilice directamente el usuario,
-sino una parte interna del proyecto que permita comprobar que la lógica principal
-funciona correctamente.
+Se entregará como una parte independiente del proyecto que reúna la lógica
+principal necesaria para trabajar con las situaciones de combate.
 
-Se considerará terminado cuando podamos probar casos conocidos y comprobar con
-tests que los resultados obtenidos son los esperados.
+Se considerará terminada cuando pueda comprobarse que funciona correctamente de
+forma independiente antes de integrarla con la parte que utilizará el usuario.
 
 
-## Milestone 2 — Primera versión utilizable de PokeDamage
+## Milestone 2 — Primera versión desplegable de PokeDamage
 
-Primera versión del proyecto pensada para que Marcelo pueda utilizarla durante la
-preparación de una competición.
+Primera versión del proyecto pensada para poder ser utilizada como una aplicación
+completa.
 
-Esta versión reunirá lo desarrollado en los milestones anteriores y permitirá
-introducir una situación concreta de combate y consultar los resultados necesarios
-para estudiar distintas alternativas.
+Reunirá lo desarrollado en los milestones anteriores y se entregará preparada
+para poder ejecutarse en un entorno de despliegue.
 
-Se considerará terminada cuando pueda utilizarse de principio a fin para analizar
-una situación real y obtener información suficiente para comparar distintas
-decisiones.
+Se considerará terminada cuando pueda ponerse en funcionamiento y utilizarse de
+principio a fin como una primera versión de PokeDamage.
