@@ -2,54 +2,53 @@
 
 ## [HU001] Dificultad para reproducir una situación concreta de combate
 
-Marcelo pierde tiempo intentando reproducir durante partidas de entrenamiento
-situaciones concretas que necesita estudiar, ya que no puede controlar cuándo
-aparecen ni bajo qué condiciones.
+Pierdo tiempo intentando reproducir durante partidas de entrenamiento situaciones
+concretas que necesito estudiar, ya que no puedo controlar cuándo aparecen ni
+bajo qué condiciones.
 
-Esta dificultad provoca que algunas situaciones relevantes para una competición
-puedan no llegar a practicarse suficientemente antes del torneo.
+Esto hace que algunas situaciones relevantes para una competición puedan no llegar
+a practicarse suficientemente antes del torneo.
 
 
 ## [HU002] Incertidumbre sobre el resultado de una acción concreta
 
-Marcelo no puede saber con seguridad qué rango de daño puede producir una acción
-concreta sin reproducir esa situación durante el entrenamiento.
+No puedo saber con seguridad qué rango de daño puede producir una acción concreta
+sin reproducir esa situación durante el entrenamiento.
 
-Esto dificulta comprobar de antemano si una decisión concreta permite alcanzar
-su objetivo, como debilitar al Pokémon rival.
+Esto me dificulta comprobar de antemano si una decisión concreta permite alcanzar
+mi objetivo, como debilitar al Pokémon rival.
 
 
 ## [HU003] Situaciones de entrenamiento que quedan sin resolver
 
-Durante las partidas de entrenamiento, Marcelo encuentra situaciones en las que
-no sabe con seguridad qué decisión habría sido más adecuada.
+Durante las partidas de entrenamiento encuentro situaciones en las que no sé con
+seguridad qué decisión habría sido más adecuada.
 
-Si no puede estudiarlas posteriormente bajo condiciones equivalentes, puede
-volver a encontrarse con el mismo problema durante una competición.
+Si no puedo estudiarlas posteriormente bajo condiciones equivalentes, puedo volver
+a encontrarme con el mismo problema durante una competición.
 
 
 ## [HU004] Poder comparar alternativas antes de competir
 
-A Marcelo le gustaría poder comparar distintas decisiones posibles para una misma
-situación antes de encontrársela en una competición.
+Me gustaría poder comparar distintas decisiones posibles para una misma situación
+antes de encontrármela en una competición.
 
-Esto le ayudaría a entender mejor qué opción encaja con el objetivo que persigue y
-a preparar con más criterio las situaciones que considera importantes.
+Esto me ayudaría a entender mejor qué opción encaja con el objetivo que persigo y
+a preparar con más criterio las situaciones que considero importantes.
 
 
 ## [HU005] Tiempo invertido en configuraciones que finalmente se descartan
 
-Marcelo dedica tiempo a preparar configuraciones de Pokémon antes de saber si
-responden adecuadamente ante las situaciones que considera importantes.
+Dedico tiempo a preparar configuraciones de Pokémon antes de saber si responden
+adecuadamente ante las situaciones que considero importantes.
 
-Cuando una configuración no cumple sus objetivos, parte del tiempo empleado en
+Cuando una configuración no cumple mis objetivos, parte del tiempo empleado en
 prepararla y probarla se pierde.
 
 
 ## [HU006] Necesidad de acceder al análisis desde distintos equipos
 
-Marcelo necesita poder consultar sus análisis desde distintos equipos durante la
-preparación de una competición, sin depender de una instalación local concreta.
+Puedo preparar una competición desde distintos equipos y lugares.
 
-Esto le permite continuar su preparación aunque cambie de ordenador o se encuentre
-fuera de su entorno habitual.
+Necesito poder continuar con el análisis aunque cambie de ordenador, sin depender
+de una instalación local concreta.
