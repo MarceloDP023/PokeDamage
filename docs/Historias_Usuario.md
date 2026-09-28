@@ -28,14 +28,13 @@ Si no puede estudiarlas posteriormente bajo condiciones equivalentes, puede
 volver a encontrarse con el mismo problema durante una competición.
 
 
-## [HU004] Dificultad para comparar alternativas antes de competir
+## [HU004] Poder comparar alternativas antes de competir
 
-Ante una misma situación de combate, Marcelo puede disponer de varias decisiones
-posibles, pero no siempre puede saber cuál se adapta mejor a su objetivo sin
-probarlas en partidas reales.
+A Marcelo le gustaría poder comparar distintas decisiones posibles para una misma
+situación antes de encontrársela en una competición.
 
-Esto le obliga a invertir tiempo de entrenamiento en comprobar alternativas que
-podrían no ser útiles para la situación que quiere preparar.
+Esto le ayudaría a entender mejor qué opción encaja con el objetivo que persigue y
+a preparar con más criterio las situaciones que considera importantes.
 
 
 ## [HU005] Tiempo invertido en configuraciones que finalmente se descartan
@@ -47,9 +46,10 @@ Cuando una configuración no cumple sus objetivos, parte del tiempo empleado en
 prepararla y probarla se pierde.
 
 
-## [HU006] Dependencia de un equipo concreto para consultar el análisis
+## [HU006] Necesidad de acceder al análisis desde distintos equipos
 
-Marcelo puede preparar una competición desde distintos equipos y lugares.
+Marcelo necesita poder consultar sus análisis desde distintos equipos durante la
+preparación de una competición, sin depender de una instalación local concreta.
 
-Depender de una instalación local concreta dificultaría acceder al análisis
-cuando cambia de ordenador o necesita consultarlo fuera de su entorno habitual.
+Esto le permite continuar su preparación aunque cambie de ordenador o se encuentre
+fuera de su entorno habitual.
