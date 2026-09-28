@@ -1,35 +1,39 @@
 # Milestones
 
-## Milestone 0 — Base de PokeDamage
+## Milestone 0 — Implementación del modelo de combate
 
-Primera versión interna del proyecto, centrada en dejar preparada la base sobre
-la que se construirá el resto de la aplicación.
+Primer producto interno de PokeDamage, formado por una implementación del modelo
+necesario para representar una situación sencilla de combate entre dos Pokémon.
 
-Se entregará como una parte independiente del proyecto que permita representar
-una situación sencilla de combate con los datos necesarios.
+El producto recogerá los datos necesarios para describir una situación de combate,
+como el atacante, el defensor, el movimiento seleccionado y la configuración
+básica necesaria para trabajar posteriormente con ella.
 
-Se considerará terminada cuando esa base pueda utilizarse correctamente desde el
-resto del proyecto sin depender todavía de una interfaz de usuario.
-
-
-## Milestone 1 — Lógica de PokeDamage
-
-Segunda versión interna del proyecto, construida sobre la base anterior.
-
-Se entregará como una parte independiente del proyecto que reúna la lógica
-principal necesaria para trabajar con las situaciones de combate.
-
-Se considerará terminada cuando pueda comprobarse que funciona correctamente de
-forma independiente antes de integrarla con la parte que utilizará el usuario.
+Se considerará terminado cuando permita representar una situación concreta con
+todos sus datos obligatorios y rechace situaciones incompletas o no válidas.
 
 
-## Milestone 2 — Primera versión desplegable de PokeDamage
+## Milestone 1 — Núcleo de cálculo de PokeDamage
 
-Primera versión del proyecto pensada para poder ser utilizada como una aplicación
-completa.
+Segundo producto interno de PokeDamage, construido sobre la implementación del
+milestone anterior y encargado de aplicar la lógica de negocio sobre una situación
+de combate ya definida.
 
-Reunirá lo desarrollado en los milestones anteriores y se entregará preparada
-para poder ejecutarse en un entorno de despliegue.
+Por ejemplo, para una situación sencilla podría recibir un atacante, un defensor
+y un movimiento y obtener el rango de daño correspondiente.
 
-Se considerará terminada cuando pueda ponerse en funcionamiento y utilizarse de
-principio a fin como una primera versión de PokeDamage.
+Se considerará terminado cuando varios casos de cálculo conocidos produzcan los
+resultados esperados y puedan comprobarse mediante tests.
+
+
+## Milestone 2 — Primera versión utilizable de PokeDamage
+
+Primer producto de PokeDamage destinado al usuario, construido a partir de los
+productos internos desarrollados en los milestones anteriores.
+
+Se entregará como una primera versión de la aplicación desde la que se pueda
+trabajar con una situación de combate y consultar el resultado obtenido.
+
+Se considerará terminada cuando Marcelo pueda introducir una situación válida,
+obtener su resultado y repetir el proceso con otra alternativa para poder
+compararlas.
