@@ -1,35 +1,30 @@
 # User Journey
 
-Marcelo participa de forma habitual en competiciones de Pokémon y utiliza la
-herramienta principalmente durante la preparación de torneos, sesiones de
-entrenamiento.
+## Marcelo Díaz Pérez
 
-La frecuencia de uso dependerá de la proximidad de una competición o de las
-situaciones que quiera estudiar (Que se le van presentando mientras entrena). 
-Durante las semanas previas a un torneo podría utilizarla varias veces para 
-comprobar distintas configuraciones y analizar situaciones concretas que considere importantes.
+La frecuencia de uso dependerá de la proximidad de una competición y de las
+situaciones que Marcelo encuentre durante sus partidas de entrenamiento.
 
-El uso se produciría principalmente durante la preparación del equipo, antes o
-después de jugar partidas de entrenamiento. Marcelo puede detectar durante una
-partida una situación que no sabe resolver con seguridad y posteriormente querer
-analizarla con más detalle.
+Durante las semanas previas a un torneo podría utilizar la herramienta varias
+veces para estudiar situaciones concretas que considere importantes.
 
-La herramienta se utilizaría desde un ordenador, ya que la preparación del equipo
-y el análisis de situaciones se realizan normalmente en un entorno de entrenamiento
-y no durante el propio combate.
+El uso se produciría principalmente antes o después de las partidas de
+entrenamiento. Marcelo puede encontrarse durante una partida con una situación
+que no sabe resolver con seguridad y querer analizarla posteriormente con más
+detalle.
 
 El recorrido habitual sería el siguiente:
 
-1. Marcelo identifica una situación de combate que quiere estudiar.
-2. Selecciona el Pokémon propio implicado y el Pokémon rival.
-3. Indica la configuración relevante de ambos, como estadísticas, EVs, naturaleza
-   y habilidad.
-4. Selecciona el movimiento o movimientos que quiere analizar.
-5. Indica las condiciones externas que puedan afectar al resultado, como el clima.
-6. Se calculan los posibles resultados de daño para esa situación.
-7. Marcelo compara las alternativas y comprueba si una determinada decisión es
-   suficiente para alcanzar su objetivo, por ejemplo debilitar al rival.
-8. Utiliza esa información para decidir si mantiene la configuración actual,
-   modifica su equipo o practica esa situación durante el entrenamiento.
-9. Finaliza el uso cuando ha obtenido la información necesaria para tomar esa
-   decisión.
+1. Marcelo identifica durante la preparación o el entrenamiento una situación
+   de combate que considera relevante.
+2. Detecta que no sabe con seguridad qué resultado tendría una determinada
+   decisión o qué alternativa sería más adecuada.
+3. Una vez terminada la partida, recoge la información necesaria para reproducir
+   esa situación.
+4. Estudia los posibles resultados de las decisiones que podía tomar.
+5. Comprueba si alguna de las alternativas permite alcanzar el objetivo que
+   perseguía.
+6. Utiliza esa información para decidir si mantiene la configuración actual,
+   modifica su equipo o necesita practicar esa situación.
+7. Finaliza el análisis cuando dispone de información suficiente para continuar
+   con su preparación.

@@ -2,9 +2,9 @@
 
 ## Cartas del juego de rol (Hecho en clase, pasado a limpio en casa)
 
-![Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
+- [Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
 
-![Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
+- [Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
 
 ## Descripción del problema
 
@@ -77,15 +77,16 @@ La planificación inicial del proyecto se ha realizado a partir del recorrido de
 usuario, las historias de usuario y una serie de productos mínimamente viables
 organizados en milestones.
 
+- [Personas Involucradas en los Problemas](docs/Personas.md)
 - [User Journey](docs/User_Journey.md)
-- [Historias de usuario](https://github.com/MarceloDP023/PokeDamage/issues?q=is%3Aissue%20label%3Auser-stories)
-- [Milestones](https://github.com/MarceloDP023/PokeDamage/milestones)
+- [Historias de usuario](docs/Historias_Usuario.md)
+- [Milestones](docs/Historias_Usuario.md)
 
 ## Configuración de GIT
 
-[Configuración](Configuracion/configuracion.md)
+[Configuración](configuracion/configuracion.md)
 
 ## Datos
 
-[Obtención de los Datos](Datos/datos.md)
+[Obtención de los Datos](datos/datos.md)
 
