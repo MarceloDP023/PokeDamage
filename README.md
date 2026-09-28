@@ -80,7 +80,7 @@ organizados en milestones.
 - [Personas Involucradas en los Problemas](docs/Personas.md)
 - [User Journey](docs/User_Journey.md)
 - [Historias de usuario](docs/Historias_Usuario.md)
-- [Milestones](docs/Historias_Usuario.md)
+- [Milestones](docs/Milestones.md)
 
 ## Configuración de GIT
 
