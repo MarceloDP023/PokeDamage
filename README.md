@@ -2,9 +2,9 @@
 
 ## Cartas del juego de rol (Hecho en clase, pasado a limpio en casa)
 
-![Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
+- [Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
 
-![Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
+- [Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
 
 ## Descripción del problema
 
@@ -70,6 +70,17 @@ casos ese daño sería suficiente para debilitar al adversario.
 Esta lógica permitirá comparar varias decisiones dentro de una misma situación,
 por ejemplo dos movimientos posibles, sin necesidad de simular un combate
 completo ni recorrer todas las combinaciones existentes en el juego.
+
+## Planificación
+
+La planificación inicial del proyecto se ha realizado a partir del recorrido del
+usuario, las historias de usuario y una serie de productos mínimamente viables
+organizados en milestones.
+
+- [Personas Involucradas en los Problemas](docs/Personas.md)
+- [User Journey](docs/User_Journey.md)
+- [Historias de usuario](docs/Historias_Usuario.md)
+- [Milestones](docs/Milestones.md)
 
 ## Configuración de GIT
 
