@@ -84,9 +84,9 @@ organizados en milestones.
 
 ## Configuración de GIT
 
-[Configuración](configuracion/configuracion.md)
+[Configuración](Configuracion/configuracion.md)
 
 ## Datos
 
-[Obtención de los Datos](datos/datos.md)
+[Obtención de los Datos](Datos/datos.md)
 
