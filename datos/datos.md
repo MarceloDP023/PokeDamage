@@ -1,9 +1,12 @@
 # Datos
 
-Los datos necesarios para resolver el problema se pueden obtener del conjunto
-de datos mantenido por PokeAPI. No será necesario realizar peticiones a su API
-durante la ejecución, ya que los datos están disponibles en ficheros CSV que
-pueden descargarse previamente y procesarse de forma local.
+Los datos necesarios para resolver el problema se obtendrán del repositorio
+público de PokeAPI, concretamente de los ficheros CSV disponibles en su
+directorio de datos:
+
+[PokeAPI - ficheros CSV](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv)
+
+No será necesario realizar peticiones a la API durante la ejecución
 
 Para el problema planteado se necesitan principalmente los siguientes datos:
 
@@ -16,6 +19,8 @@ Para el problema planteado se necesitan principalmente los siguientes datos:
 - Movimientos que puede aprender cada Pokémon (`pokemon_moves.csv`).
 - Habilidades disponibles y su relación con cada Pokémon
   (`abilities.csv` y `pokemon_abilities.csv`).
+- Efectos de las habilidades (`ability_prose.csv`), necesarios para conocer cómo
+  una habilidad puede modificar una situación de combate.
 - Naturalezas y las estadísticas que modifican (`natures.csv`).
 
 Los EVs, el clima presente en el combate, los movimientos seleccionados para
@@ -32,20 +37,20 @@ A partir de estos elementos se podrá determinar el rango de daño producido en
 una situación concreta y analizar si una acción puede debilitar al rival,
 incluyendo la variación aleatoria que forma parte del cálculo de daño.
 
-## Licencia de los datos
+## Licencia y procedencia de los datos
 
-Los datos utilizados proceden del repositorio público de PokeAPI. El repositorio
-permite la redistribución y el uso de su contenido, con o sin modificaciones,
-siempre que se conserven el aviso de copyright, las condiciones de la licencia
-y la cláusula de exención de responsabilidad.
+Los datos utilizados proceden del repositorio público de PokeAPI, distribuido
+bajo licencia BSD-3-Clause.
 
-Por este motivo, si los ficheros CSV necesarios se incorporan a este proyecto,
-se incluirá también una copia de la licencia original de PokeAPI junto a los
-datos y se indicará claramente su procedencia.
-
-La licencia también especifica que ni el nombre de PokeAPI ni el de sus
-colaboradores puede utilizarse para promocionar productos derivados sin permiso.
+La licencia permite la redistribución y el uso del contenido, con o sin
+modificaciones, siempre que se mantengan los avisos de copyright, las
+condiciones de la licencia y la cláusula de exención de responsabilidad.
 
 Pokémon y los nombres de los personajes Pokémon son marcas de Nintendo, tal y
-como indica la propia licencia de PokeAPI. La utilización de los datos de PokeAPI
-no implica ningún tipo de afiliación o respaldo por parte de Nintendo o PokeAPI.
+como indica la propia licencia de PokeAPI.
+
+El uso de estos datos en PokeDamage no implica afiliación ni respaldo por parte
+de Nintendo ni de PokeAPI.
+
+La licencia original puede consultarse en:
+https://github.com/PokeAPI/pokeapi/blob/master/LICENSE.md
