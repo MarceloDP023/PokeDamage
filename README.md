@@ -2,9 +2,9 @@
 
 ## Cartas del juego de rol (Hecho en clase, pasado a limpio en casa)
 
-![Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
+![Carta de cliente](imagenes_cartas_rol/cliente.jpg)
 
-![Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
+![Carta de desarrollador](imagenes_cartas_rol/desarrollador.jpg)
 
 ## Descripción del problema
 
@@ -73,7 +73,7 @@ completo ni recorrer todas las combinaciones existentes en el juego.
 
 ## Configuración de GIT
 
-[Configuración](Configuracion/configuracion.md)
+[Configuración](configuracion/configuracion.md)
 
 ## Datos
 
