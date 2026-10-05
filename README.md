@@ -2,9 +2,9 @@
 
 ## Cartas del juego de rol (Hecho en clase, pasado a limpio en casa)
 
-- [Carta de cliente](Imagenes_Cartas_Rol/cliente.jpg)
+- [Carta de cliente](imagenes_cartas_rol/cliente.jpg)
 
-- [Carta de desarrollador](Imagenes_Cartas_Rol/desarrollador.jpg)
+- [Carta de desarrollador](imagenes_cartas_rol/desarrollador.jpg)
 
 ## Descripción del problema
 
@@ -77,16 +77,16 @@ La planificación inicial del proyecto se ha realizado a partir del recorrido de
 usuario, las historias de usuario y una serie de productos mínimamente viables
 organizados en milestones.
 
-- [Personas Involucradas en los Problemas](docs/Personas.md)
-- [User Journey](docs/User_Journey.md)
-- [Historias de usuario](docs/Historias_Usuario.md)
-- [Milestones](docs/Milestones.md)
+- [Personas Involucradas en los Problemas](docs/personas.md)
+- [User Journey](docs/user_journey.md)
+- [Historias de usuario](docs/historias_usuario.md)
+- [Milestones](docs/milestones.md)
 
 ## Configuración de GIT
 
-[Configuración](Configuracion/configuracion.md)
+[Configuración](configuracion/configuracion.md)
 
 ## Datos
 
-[Obtención de los Datos](Datos/datos.md)
+[Obtención de los Datos](datos/datos.md)
 
