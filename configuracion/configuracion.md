@@ -30,4 +30,3 @@ la añadí al path de /bin (para usar este desde cualquier repo) y añadi una l�
 donde debía especificar donde se encontraba la librería de perl, ya que me daba un error.
 
 ![Git](../imagenes_configuracion/integración_de_git_iv.png)
-EOF
