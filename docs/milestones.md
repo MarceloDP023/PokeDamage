@@ -1,58 +1,55 @@
 # Milestones del proyecto
 
-## Milestone 0 — Primera implementación interna del modelo del problema
+## Milestone 0 — Modelado del problema
 
-El primer milestone consistirá en una implementación interna del modelo necesario
-para representar las situaciones de combate que aparecen en las historias de
-usuario.
+Este milestone estará vinculado a la [HU001].
 
-Esta implementación deberá recoger las relaciones entre los elementos relevantes
-del dominio sin incorporar todavía la lógica completa necesaria para resolver las
-situaciones.
+Se obtendrá un primer PMV interno a partir del análisis del problema descrito en
+esta historia de usuario.
 
-El producto obtenido servirá como base para incorporar posteriormente la lógica
-de negocio sin tener que sustituir lo desarrollado en esta etapa.
+Para su desarrollo se seguirá una metodología de modelado del dominio que permita
+identificar los conceptos relevantes y las relaciones que surgen del propio
+problema, sin decidir de antemano qué funcionalidades o estructuras concretas
+formarán parte de la implementación.
 
-Se considerará válido cuando permita representar una situación de combate con los
-elementos necesarios para describirla, como los Pokémon implicados, sus
-configuraciones, las condiciones del combate y las acciones que pueden
-considerarse dentro de ella, manteniendo las relaciones definidas entre estos
-elementos.
+En esta etapa no se desarrollará todavía la lógica necesaria para resolver la
+historia de usuario. El resultado será una primera implementación interna que
+sirva como base para continuar el desarrollo en el siguiente milestone.
 
-
-## Milestone 1 — Incorporación de la lógica de negocio
-
-Este milestone partirá de la implementación interna obtenida en el milestone
-anterior y añadirá la lógica necesaria para obtener resultados a partir de las
-situaciones de combate representadas.
-
-La solución deberá utilizar los elementos ya definidos en el modelo para aplicar
-las reglas que determinan el resultado de una acción, sin sustituir la base
-desarrollada previamente.
-
-El producto obtenido será una versión interna capaz de resolver las situaciones
-de combate descritas en las historias de usuario a partir de la información que
-las define.
-
-Se considerará válido cuando, dada una situación de combate correctamente
-representada, la solución pueda obtener el resultado de las acciones consideradas
-de acuerdo con las reglas definidas para el problema.
+Se considerará válido cuando pueda justificarse, a partir del proceso seguido,
+que los elementos incorporados a la implementación proceden del análisis de la
+HU001 y exista trazabilidad entre la historia de usuario, los issues derivados
+de su análisis y los cambios realizados en el código.
 
 
-## Milestone 2 — Primera versión utilizable de la solución
+## Milestone 1 — Lógica del problema
 
-Este milestone partirá del modelo y de la lógica de negocio desarrollados en los
-milestones anteriores y añadirá los elementos necesarios para poder utilizar la
-solución fuera del entorno interno de desarrollo.
+Este milestone continuará vinculado a la [HU001] y partirá de la implementación
+obtenida en el milestone anterior.
 
-La nueva versión deberá permitir trabajar con las situaciones de combate y las
-acciones ya resueltas por la lógica existente, sin duplicar ni sustituir el
-comportamiento desarrollado previamente.
+Se obtendrá un nuevo PMV interno incorporando la lógica mínima necesaria para
+avanzar en la resolución del problema descrito en la historia de usuario,
+utilizando como base el trabajo desarrollado previamente.
 
-El producto obtenido será una primera versión utilizable de PokeDamage sobre la
-que el usuario pueda plantear las situaciones que necesita analizar durante su
-preparación.
+La lógica incorporada se acompañará de tests automáticos que permitan comprobar
+su comportamiento.
 
-Se considerará válido cuando la solución pueda utilizarse de forma reproducible
-desde un entorno distinto al utilizado durante el desarrollo, manteniendo el
-comportamiento desarrollado en los milestones anteriores.
+Se considerará válido cuando los tests definidos se ejecuten automáticamente y
+permitan comprobar que el comportamiento incorporado responde a los casos
+desarrollados a partir de la HU001.
+
+
+## Milestone 2 — Primera versión para uso externo
+
+Este milestone estará vinculado a la [HU002] y partirá del producto obtenido en
+los milestones anteriores.
+
+Se obtendrá una primera versión que pueda utilizarse fuera del entorno interno
+de desarrollo, manteniendo el modelo y la lógica incorporados previamente.
+
+El desarrollo de esta versión partirá del problema descrito en la HU002 y de los
+issues derivados de su análisis, sin sustituir el trabajo realizado para la HU001.
+
+Se considerará válido cuando el producto pueda utilizarse de forma reproducible
+desde un entorno distinto al utilizado durante su desarrollo y exista
+trazabilidad entre la HU002, los issues abordados y los cambios realizados.
