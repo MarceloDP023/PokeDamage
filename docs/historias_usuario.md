@@ -7,19 +7,20 @@ obtendrán a partir de los ficheros CSV descargables de PokeAPI.
 La procedencia y los datos necesarios para el proyecto se describen con más
 detalle en [datos](../datos/datos.md).
 
-## [HU001] Dificultad para estudiar situaciones concretas durante el entrenamiento
+## [HU001] Dificultad para conocer el resultado de situaciones concretas durante el entrenamiento
 
-Durante la preparación de una competición pierdo tiempo intentando reproducir
-situaciones concretas mediante partidas de entrenamiento, ya que no puedo
+Durante la preparación de una competición no siempre puedo conocer el resultado de
+situaciones concretas sin intentar reproducirlas en partidas de entrenamiento, ya que no puedo
 controlar cuándo aparecen ni bajo qué condiciones.
 
-Una situación de combate puede variar en función de los Pokémon implicados, sus
-estadísticas, tipos, habilidades, naturaleza y EVs, el movimiento utilizado y
-las condiciones del combate que puedan afectar al resultado.
+Reproducir una situación determinada puede requerir jugar varias partidas. 
+Además, una situación de combate puede variar en función de los Pokémon implicados, 
+sus estadísticas, tipos, habilidades, naturaleza y EVs, el movimiento utilizado 
+y las condiciones del combate que puedan afectar al resultado.
 
-Necesito poder estudiar estas situaciones porque pequeñas variaciones en estos
-elementos pueden modificar el resultado y algunas situaciones relevantes pueden
-no llegar a aparecer durante el entrenamiento antes de una competición.
+Necesito conocer los posibles resultados de estas situaciones antes de una
+competición para poder decidir si la configuración que estoy preparando responde
+adecuadamente ante ellas.
 
 
 ## [HU002] Incertidumbre sobre el resultado de una acción
