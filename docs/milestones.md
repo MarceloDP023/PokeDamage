@@ -1,58 +1,58 @@
 # Milestones del proyecto
 
-## Milestone 0 — Primera base del proyecto a partir de la HU001
+## Milestone 0 — Primera implementación interna del modelo del problema
 
-Este milestone se centrará en la [HU001], relacionada con la dificultad para
-estudiar situaciones concretas de combate durante el entrenamiento.
+El primer milestone consistirá en una implementación interna del modelo necesario
+para representar las situaciones de combate que aparecen en las historias de
+usuario.
 
-A partir de este problema se dividirá el trabajo en issues más pequeños que
-permitan entender qué información es realmente necesaria para representar una
-situación de combate y cómo se relacionan sus distintos elementos.
+Esta implementación deberá recoger las relaciones entre los elementos relevantes
+del dominio sin incorporar todavía la lógica completa necesaria para resolver las
+situaciones.
 
-El resultado será una primera base de código sobre la que se pueda seguir
-trabajando en los siguientes milestones, sin decidir de antemano qué clases,
-estructuras o soluciones concretas tendrá el proyecto.
+El producto obtenido servirá como base para incorporar posteriormente la lógica
+de negocio sin tener que sustituir lo desarrollado en esta etapa.
 
-Se considerará válido cuando los elementos incorporados al código puedan
-justificarse a partir del problema descrito en la HU001 y exista una relación
-clara entre la historia de usuario, los issues creados y los commits realizados.
-
-
-## Milestone 1 — Ampliación de la base para resolver situaciones de combate
-
-Este milestone partirá de la base obtenida en el anterior y se centrará en las
-[HU002] y [HU003], relacionadas con la incertidumbre sobre el resultado de una
-acción y con la dificultad para saber si esa acción permite alcanzar el objetivo
-buscado.
-
-A partir de estos problemas se crearán nuevos issues que permitan avanzar sobre
-la base ya existente e incorporar únicamente aquello que sea necesario para
-resolverlos.
-
-El resultado será una versión más completa del proyecto, construida sobre el
-trabajo del milestone anterior y preparada para comprobar que las soluciones
-desarrolladas responden correctamente a los problemas planteados.
-
-Se considerará válido cuando los nuevos elementos añadidos puedan justificarse a
-partir de las HU002 y HU003, exista trazabilidad entre historias de usuario,
-issues y commits, y las soluciones desarrolladas puedan comprobarse de forma
-automática.
+Se considerará válido cuando permita representar una situación de combate con los
+elementos necesarios para describirla, como los Pokémon implicados, sus
+configuraciones, las condiciones del combate y las acciones que pueden
+considerarse dentro de ella, manteniendo las relaciones definidas entre estos
+elementos.
 
 
-## Milestone 2 — Primera versión orientada al uso durante la preparación
+## Milestone 1 — Incorporación de la lógica de negocio
 
-Este milestone partirá del trabajo realizado en los anteriores y ampliará el
-proyecto con los problemas descritos en las [HU004], [HU005] y [HU006].
+Este milestone partirá de la implementación interna obtenida en el milestone
+anterior y añadirá la lógica necesaria para obtener resultados a partir de las
+situaciones de combate representadas.
 
-A partir de estas historias se crearán nuevos issues que permitan seguir
-ampliando el proyecto únicamente con aquello que sea necesario para resolver los
-problemas priorizados en esta etapa.
+La solución deberá utilizar los elementos ya definidos en el modelo para aplicar
+las reglas que determinan el resultado de una acción, sin sustituir la base
+desarrollada previamente.
 
-El resultado será una primera versión de PokeDamage que reúna el trabajo realizado
-en los milestones anteriores y pueda utilizarse fuera del entorno puramente
-interno de desarrollo.
+El producto obtenido será una versión interna capaz de resolver las situaciones
+de combate descritas en las historias de usuario a partir de la información que
+las define.
 
-Se considerará válido cuando los problemas abordados puedan relacionarse con sus
-historias de usuario, issues y commits correspondientes, y la versión obtenida
-pueda utilizarse de forma reproducible manteniendo las comprobaciones realizadas
-en los milestones anteriores.
+Se considerará válido cuando, dada una situación de combate correctamente
+representada, la solución pueda obtener el resultado de las acciones consideradas
+de acuerdo con las reglas definidas para el problema.
+
+
+## Milestone 2 — Primera versión utilizable de la solución
+
+Este milestone partirá del modelo y de la lógica de negocio desarrollados en los
+milestones anteriores y añadirá los elementos necesarios para poder utilizar la
+solución fuera del entorno interno de desarrollo.
+
+La nueva versión deberá permitir trabajar con las situaciones de combate y las
+acciones ya resueltas por la lógica existente, sin duplicar ni sustituir el
+comportamiento desarrollado previamente.
+
+El producto obtenido será una primera versión utilizable de PokeDamage sobre la
+que el usuario pueda plantear las situaciones que necesita analizar durante su
+preparación.
+
+Se considerará válido cuando la solución pueda utilizarse de forma reproducible
+desde un entorno distinto al utilizado durante el desarrollo, manteniendo el
+comportamiento desarrollado en los milestones anteriores.

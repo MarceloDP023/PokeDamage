@@ -7,76 +7,57 @@ obtendrán a partir de los ficheros CSV descargables de PokeAPI.
 La procedencia y los datos necesarios para el proyecto se describen con más
 detalle en [datos](../datos/datos.md).
 
-## [HU001] Dificultad para conocer el resultado de situaciones concretas durante el entrenamiento
-
-Durante la preparación de una competición no siempre puedo conocer el resultado de
-situaciones concretas sin intentar reproducirlas en partidas de entrenamiento, ya que no puedo
-controlar cuándo aparecen ni bajo qué condiciones.
-
-Reproducir una situación determinada puede requerir jugar varias partidas. 
-Además, una situación de combate puede variar en función de los Pokémon implicados, 
-sus estadísticas, tipos, habilidades, naturaleza y EVs, el movimiento utilizado 
-y las condiciones del combate que puedan afectar al resultado.
-
-Necesito conocer los posibles resultados de estas situaciones antes de una
-competición para poder decidir si la configuración que estoy preparando responde
-adecuadamente ante ellas.
-
-
-## [HU002] Incertidumbre sobre el resultado de una acción
-
-Cuando me encuentro ante una situación concreta no siempre puedo determinar con
-seguridad qué resultado puede producir una acción.
-
-El daño depende de las estadísticas efectivas del atacante y del defensor, de la
-potencia y categoría del movimiento, de los tipos implicados y de los
-modificadores que sean aplicables en ese momento.
-
-Además, el daño no tiene siempre un único valor debido a la variación aleatoria,
-por lo que el resultado de una misma acción puede encontrarse dentro de un rango.
-
-## [HU003] Dificultad para saber si una acción alcanza el objetivo buscado
-
-Durante una partida puedo encontrar una situación en la que necesito debilitar a
-un Pokémon rival pero no sé con seguridad si una determinada acción será
-suficiente.
-
-Para determinarlo intervienen el rango de daño que puede producir la acción, los
-puntos de salud que conserva el defensor y las condiciones concretas presentes
-en el combate.
-
-Esta incertidumbre puede hacer que tome una decisión sin saber si realmente puede
-alcanzar el objetivo que persigo.
-
-## [HU004] Dificultad para valorar distintas decisiones en las mismas condiciones
-
-En una misma situación de combate puedo disponer de varias decisiones posibles y
-no siempre resulta sencillo determinar cómo cambia el resultado al escoger una u
-otra.
-
-Para poder valorar correctamente esas alternativas necesito mantener las mismas
-condiciones de combate y conocer qué elementos cambian entre una decisión y otra,
-como el movimiento elegido o la configuración utilizada.
-
-Si las condiciones no son equivalentes, los resultados obtenidos no permiten
-valorar correctamente las distintas decisiones.
-
-## [HU005] Tiempo invertido en Pokémon o configuraciones que finalmente se descartan
+## [HU001] Tiempo invertido en comprobar configuraciones antes de una competición
 
 Antes de una competición dedico tiempo a preparar Pokémon y probar distintas
 configuraciones sin saber previamente si responderán adecuadamente ante las
 situaciones que considero importantes.
 
-La elección del propio Pokémon influye en el resultado debido a sus estadísticas
-base, tipos, habilidades y movimientos disponibles. Además, dentro de un mismo
-Pokémon, elementos como la naturaleza y los EVs pueden modificar sus estadísticas
-y cambiar su comportamiento ante una misma situación.
+Comprobarlo mediante partidas de entrenamiento puede requerir varias partidas,
+ya que no puedo controlar qué situaciones aparecen ni bajo qué condiciones.
 
 Cuando después del entrenamiento compruebo que un Pokémon o una configuración no
-cubre las situaciones para las que había sido preparado, parte del tiempo
-invertido en su preparación y prueba se pierde.
+responde adecuadamente ante las situaciones para las que había sido preparado,
+parte del tiempo invertido en su preparación y prueba se pierde.
 
-## [HU006] Dificultad para continuar el análisis desde distintos equipos
+## [HU002] Dificultad para conocer el resultado de una situación concreta de combate
+
+Durante la preparación no siempre puedo anticipar qué puede ocurrir en una
+situación concreta de combate sin reproducirla previamente durante una partida.
+
+Una situación queda determinada por los Pokémon implicados, sus configuraciones
+y las condiciones presentes en ese momento del combate.
+
+El resultado puede cambiar cuando varía alguno de estos elementos, por lo que no
+siempre puedo anticipar cómo responderá la configuración que estoy preparando.
+
+## [HU003] Incertidumbre sobre el resultado de una acción dentro de una situación
+
+Dentro de una misma situación de combate puedo considerar distintas acciones,
+como utilizar uno de los movimientos disponibles.
+
+No siempre puedo determinar con seguridad qué resultado producirá una acción, ya
+que el daño depende de las estadísticas del atacante y del defensor, del
+movimiento utilizado, de los tipos implicados y de los modificadores aplicables.
+
+Además, el daño puede variar dentro de un rango debido a la componente aleatoria
+del cálculo.
+
+## [HU004] Dificultad para comparar distintas acciones en una misma situación
+
+En una misma situación de combate puedo disponer de varias acciones posibles y
+no siempre resulta sencillo determinar cómo cambia el resultado al escoger una u
+otra.
+
+Para poder valorar correctamente esas alternativas necesito mantener constantes
+los Pokémon, sus configuraciones y las condiciones del combate, y conocer cómo
+cambia el resultado cuando cambia únicamente la acción considerada, como el
+movimiento utilizado.
+
+Si las condiciones no son equivalentes, los resultados obtenidos no permiten
+comparar correctamente las distintas acciones.
+
+## [HU005] Dificultad para continuar el análisis desde distintos equipos
 
 La preparación de una competición no siempre la realizo desde el mismo ordenador.
 
