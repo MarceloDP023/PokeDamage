@@ -1,4 +1,4 @@
-# Milestones
+# Milestones del proyecto
 
 ## Milestone 0 — Primera base del proyecto a partir de la HU001
 
