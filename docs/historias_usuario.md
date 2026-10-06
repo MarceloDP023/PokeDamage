@@ -77,8 +77,6 @@ y las condiciones del combate, según los conceptos definidos en el
 
 ## [HU004] Dificultad para continuar el análisis desde distintos equipos
 
-## [HU004] Dificultad para continuar el análisis desde distintos equipos
-
 La preparación de una competición no siempre la realizo desde el mismo ordenador.
 
 Esto dificulta continuar trabajando con las mismas situaciones y resultados
