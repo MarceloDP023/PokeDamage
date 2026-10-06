@@ -41,7 +41,7 @@ desarrollados a partir de la HU001.
 
 ## Milestone 2 — Primera versión para uso externo
 
-Este milestone estará vinculado a la [HU002] y partirá del producto obtenido en
+Este milestone estará vinculado a la [HU004] y partirá del producto obtenido en
 los milestones anteriores.
 
 Se obtendrá una primera versión que pueda utilizarse fuera del entorno interno
@@ -52,4 +52,4 @@ issues derivados de su análisis, sin sustituir el trabajo realizado para la HU0
 
 Se considerará válido cuando el producto pueda utilizarse de forma reproducible
 desde un entorno distinto al utilizado durante su desarrollo y exista
-trazabilidad entre la HU002, los issues abordados y los cambios realizados.
+trazabilidad entre la HU004, los issues abordados y los cambios realizados.
