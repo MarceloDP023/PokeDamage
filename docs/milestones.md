@@ -7,10 +7,12 @@ Este milestone estará vinculado a la [HU001].
 Se obtendrá un primer PMV interno a partir del análisis del problema descrito en
 esta historia de usuario.
 
-Para su desarrollo se seguirá una metodología de modelado del dominio que permita
-identificar los conceptos relevantes y las relaciones que surgen del propio
-problema, sin decidir de antemano qué funcionalidades o estructuras concretas
-formarán parte de la implementación.
+Para su desarrollo se partirá del análisis de la HU001 para identificar los
+conceptos relevantes del problema, las relaciones entre ellos y la información
+necesaria para representarlos en el software.
+
+La implementación se construirá a partir de ese análisis, sin decidir de antemano
+qué clases, estructuras o funcionalidades concretas formarán parte de la solución.
 
 En esta etapa no se desarrollará todavía la lógica necesaria para resolver la
 historia de usuario. El resultado será una primera implementación interna que
@@ -47,7 +49,7 @@ los milestones anteriores.
 Se obtendrá una primera versión que pueda utilizarse fuera del entorno interno
 de desarrollo, manteniendo el modelo y la lógica incorporados previamente.
 
-El desarrollo de esta versión partirá del problema descrito en la HU002 y de los
+El desarrollo de esta versión partirá del problema descrito en la HU004 y de los
 issues derivados de su análisis, sin sustituir el trabajo realizado para la HU001.
 
 Se considerará válido cuando el producto pueda utilizarse de forma reproducible
