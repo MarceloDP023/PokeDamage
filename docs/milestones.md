@@ -15,9 +15,9 @@ quedarán relacionados con ellos mediante los commits correspondientes.
 El resultado será una primera implementación del modelo del problema sobre la
 que se pueda continuar el desarrollo en el siguiente milestone.
 
-Se considerará válido cuando la implementación obtenida pueda justificarse a
-partir del proceso seguido desde la HU001, manteniendo la trazabilidad entre la
-historia de usuario, los problemas identificados, los issues y los commits.
+Se considerará válido cuando el proceso seguido desde la HU001 permita justificar
+la implementación obtenida, manteniendo la trazabilidad entre la historia de
+usuario, los problemas identificados, los issues y los commits.
 
 
 ## Milestone 1 — Lógica del problema
