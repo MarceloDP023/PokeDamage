@@ -11,7 +11,8 @@ Su procedencia y contenido se detallan en [datos](../datos/datos.md).
 
 Durante la preparación de una competición puedo necesitar saber qué resultado
 tendría utilizar un movimiento concreto de uno de mis Pokémon contra un Pokémon
-rival.
+rival, teniendo en cuenta que las condiciones de combate son las más básicas 
+(Solo influyen las características de los Pokemon).
 
 Incluso en este caso básico, el resultado depende de las características de ambos
 Pokémon y no únicamente del movimiento elegido.
