@@ -4,26 +4,20 @@
 
 Este milestone estará vinculado a la [HU001].
 
-Se obtendrá un primer PMV interno a partir de una metodología DDD 
-a partir de lo descrito en la HU001.
+Se obtendrá un primer PMV interno mediante el modelado del problema descrito en
+la HU001, siguiendo el proceso establecido en el Objetivo 2.
 
-Para su desarrollo, la HU001 se descompondrá en issues que representen problemas
-concretos del dominio, comenzando por los más simples y avanzando progresivamente
-hacia problemas de mayor nivel de abstracción.
+A partir del análisis del problema se identificarán los conceptos y relaciones
+necesarios para representarlo. Los problemas concretos que surjan durante este
+proceso se registrarán mediante issues y los cambios realizados para abordarlos
+quedarán relacionados con ellos mediante los commits correspondientes.
 
-A partir de esos issues se identificarán los conceptos y relaciones necesarios
-para construir una primera modelización en código, justificando cada elemento
-incorporado a partir del problema del que procede.
+El resultado será una primera implementación del modelo del problema sobre la
+que se pueda continuar el desarrollo en el siguiente milestone.
 
-En esta etapa no se desarrollará todavía la lógica necesaria para resolver la
-historia de usuario. El resultado será una primera implementación interna que
-sirva como base para continuar el desarrollo en el siguiente milestone.
-
-Se considerará válido cuando pueda justificarse, a partir del proceso seguido,
-que los elementos incorporados a la implementación proceden del análisis de la
-HU001 y exista trazabilidad entre la historia de usuario, los issues derivados
-de su análisis y los cambios realizados en el código, ya que todo código no procedente
-de un issue se considerará erroneo.
+Se considerará válido cuando la implementación obtenida pueda justificarse a
+partir del proceso seguido desde la HU001, manteniendo la trazabilidad entre la
+historia de usuario, los problemas identificados, los issues y los commits.
 
 
 ## Milestone 1 — Lógica del problema
