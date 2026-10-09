@@ -5,7 +5,8 @@
 Este milestone estará vinculado a la [HU001].
 
 Se obtendrá un primer PMV interno mediante el modelado del problema descrito en
-la HU001, siguiendo el proceso de modelaje (DDD).
+la HU001, aplicando DDD para identificar los conceptos y relaciones del dominio
+a partir del lenguaje y la información presentes en la historia de usuario.
 
 A partir del análisis del problema se identificarán los conceptos y relaciones
 necesarios para representarlo, partiendo de palabras claves relacionadas con el
@@ -16,9 +17,8 @@ Los problemas concretos que surjan de la implementación después del modelado s
 registrarán mediante issues y los cambios realizados para abordarlos quedarán 
 relacionados con ellos mediante los commits correspondientes.
 
-Se considerará válido cuando el proceso seguido desde la HU001 permita justificar
-la implementación obtenida, es decir, que todos los issues creados a partír del modelo
-obtenido estén relacionados con el código.
+Se considerará válido cuando la implemetación obtenido, parta del modelado
+del problema previamente hecho.
 
 
 ## Milestone 1 — Lógica del problema
