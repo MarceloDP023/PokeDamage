@@ -7,13 +7,6 @@ Este milestone estará vinculado a la [HU001].
 Se obtendrá un primer PMV interno mediante el modelado del problema descrito en
 la HU001, aplicando DDD.
 
-Para el modelado del problema, se parte de una situación de combate específica.
-(Descripción de una situación de combate [user journey](user_journey.md#situación-de-combate))
-
-Se considerará válido cuando la implemetación obtenida, parta del modelado
-del problema.
-
-
 ## Milestone 1 — Lógica del problema
 
 Este milestone continuará vinculado a la [HU001] y partirá de la implementación
