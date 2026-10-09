@@ -8,10 +8,10 @@ Se obtendrá un primer PMV interno mediante el modelado del problema descrito en
 la HU001, aplicando DDD para identificar los conceptos y relaciones del dominio
 a partir del lenguaje y la información presentes en la historia de usuario.
 
-A partir del análisis del problema se identificarán los conceptos y relaciones
-necesarios para representarlo, partiendo de palabras claves relacionadas con el
-problema y descomponiendolas en conceptos simples, para llegar a la modelización
-del problema. 
+Una vez realizado ese modelado, los problemas concretos que se identifiquen
+durante la implementación se registrarán mediante issues, y los cambios realizados
+para abordarlos quedarán relacionados con ellos mediante los commits
+correspondientes.
 
 Los problemas concretos que surjan de la implementación después del modelado se 
 registrarán mediante issues y los cambios realizados para abordarlos quedarán 
