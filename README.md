@@ -2,9 +2,9 @@
 
 ## Cartas del juego de rol (Hecho en clase, pasado a limpio en casa)
 
-![Carta de cliente](imagenes_cartas_rol/cliente.jpg)
+- [Carta de cliente](imagenes_cartas_rol/cliente.jpg)
 
-![Carta de desarrollador](imagenes_cartas_rol/desarrollador.jpg)
+- [Carta de desarrollador](imagenes_cartas_rol/desarrollador.jpg)
 
 ## Descripción del problema
 
@@ -71,11 +71,22 @@ Esta lógica permitirá comparar varias decisiones dentro de una misma situació
 por ejemplo dos movimientos posibles, sin necesidad de simular un combate
 completo ni recorrer todas las combinaciones existentes en el juego.
 
+## Planificación
+
+La planificación inicial del proyecto se ha realizado a partir del recorrido del
+usuario, las historias de usuario y una serie de productos mínimamente viables
+organizados en milestones.
+
+- [Personas Involucradas en los Problemas](docs/personas.md)
+- [User Journey](docs/user_journey.md)
+- [Historias de usuario](docs/historias_usuario.md)
+- [Milestones](docs/milestones.md)
+
 ## Configuración de GIT
 
 [Configuración](configuracion/configuracion.md)
 
 ## Datos
 
-[Obtención de los Datos](Datos/datos.md)
+[Obtención de los Datos](datos/datos.md)
 
