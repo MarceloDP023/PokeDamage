@@ -6,7 +6,7 @@ Este milestone estará vinculado a la [HU001].
 
 Se obtendrá un primer PMV interno mediante el modelado del problema descrito en
 la HU001, aplicando DDD para identificar los conceptos y relaciones del dominio
-a partir de la información en la historia de usuario.
+a partir de la información procedente de la historia de usuario.
 
 Una vez realizado ese modelado, los problemas concretos que se identifiquen
 durante la implementación se registrarán mediante issues, y los cambios realizados
