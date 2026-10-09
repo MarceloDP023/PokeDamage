@@ -13,10 +13,6 @@ durante la implementación se registrarán mediante issues, y los cambios realiz
 para abordarlos quedarán relacionados con ellos mediante los commits
 correspondientes.
 
-Los problemas concretos que surjan de la implementación después del modelado se 
-registrarán mediante issues y los cambios realizados para abordarlos quedarán 
-relacionados con ellos mediante los commits correspondientes.
-
 Se considerará válido cuando la implemetación obtenida, parta del modelado
 del problema previamente hecho.
 
