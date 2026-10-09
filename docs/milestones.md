@@ -5,16 +5,13 @@
 Este milestone estará vinculado a la [HU001].
 
 Se obtendrá un primer PMV interno mediante el modelado del problema descrito en
-la HU001, aplicando DDD para identificar los conceptos y relaciones del dominio
-a partir de la información procedente de la historia de usuario.
+la HU001, aplicando DDD.
 
-Una vez realizado ese modelado, los problemas concretos que se identifiquen
-durante la implementación se registrarán mediante issues, y los cambios realizados
-para abordarlos quedarán relacionados con ellos mediante los commits
-correspondientes.
+Para el modelado del problema, se parte de una situación de combate específica.
+(Descripción de una situación de combate [user journey](user_journey.md#situación-de-combate))
 
 Se considerará válido cuando la implemetación obtenida, parta del modelado
-del problema previamente hecho.
+del problema.
 
 
 ## Milestone 1 — Lógica del problema

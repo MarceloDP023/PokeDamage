@@ -11,6 +11,8 @@ Para entender el recorrido de usuario se utilizan los siguientes conceptos:
 - **Configuración de un Pokémon:** conjunto de características elegidas para un
   Pokémon antes del combate, como sus movimientos, habilidad, naturaleza y EVs.
 
+  ### Situación de combate
+
 - **Situación de combate:** estado concreto de una partida en el que intervienen
   unos Pokémon determinados, sus configuraciones y las condiciones presentes en
   ese momento, como el clima.
