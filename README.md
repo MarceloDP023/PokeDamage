@@ -90,3 +90,53 @@ organizados en milestones.
 
 [Obtención de los Datos](datos/datos.md)
 
+## Gestor de dependencias
+
+**Opciones consideradas:** npm, Yarn y pnpm.
+
+**Criterios:** compatibilidad con TypeScript, facilidad de instalación, mantenimiento y uso habitual dentro del ecosistema de Node.js.
+
+**Reflexión final:** se ha elegido npm porque se distribuye junto con Node.js, permite declarar las dependencias en `package.json` y gestionar sus versiones mediante `package-lock.json`. Para el alcance actual de PokeDamage no se considera necesario incorporar otro gestor.
+
+Para instalar las dependencias del proyecto, desde la raíz del repositorio:
+
+```bash
+npm install
+```
+
+## Gestor de tareas
+
+**Requisito:** disponer de un fichero de tareas al que pueda apuntar `iv.yaml`, que permita automatizar la instalación, ejecución de pruebas y comprobación del código.
+
+**Opciones consideradas:**
+
+| Opción | Fichero de tareas | Características |
+|---|---|---|
+| npm scripts | `package.json` | Integrado con npm |
+| Make | `Makefile` | Herramienta general de automatización |
+| Gulp | `gulpfile.js` | Automatización mediante JavaScript |
+
+**Reflexión final:** se ha elegido npm scripts porque permite definir las tareas directamente en `package.json`, sin introducir una herramienta adicional. Además, utiliza el mismo entorno que el gestor de dependencias seleccionado.
+
+Las tareas disponibles son:
+
+- `npm install`: instala las dependencias.
+- `npm run check`: comprueba el código TypeScript.
+- `npm test`: ejecuta las pruebas configuradas en el proyecto.
+
+## Comprobación de sintaxis de una clase
+
+La entidad seleccionada es `Coleccion_Acciones`, ubicada en [`src/modelo/coleccion_acciones.ts`](src/modelo/coleccion_acciones.ts).
+
+**Qué es:** representa la colección de acciones que se utilizarán para analizar situaciones concretas de combate Pokémon.
+
+**Qué hará:** permitirá organizar las acciones disponibles para estudiar diferentes decisiones dentro de una situación de combate. Su comportamiento se desarrollará conforme avance la implementación del dominio.
+
+**Orden check:**
+
+```bash
+npm run check
+```
+
+Esta orden ejecuta `tsc --noEmit`, definido en `package.json`, que comprueba la sintaxis y los tipos de los archivos TypeScript sin generar archivos JavaScript. No ejecuta pruebas ni herramientas de formato o linting.
+
