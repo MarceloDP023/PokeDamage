@@ -140,3 +140,11 @@ npm run check
 
 Esta orden ejecuta `tsc --noEmit`, definido en `package.json`, que comprueba la sintaxis y los tipos de los archivos TypeScript sin generar archivos JavaScript. No ejecuta pruebas ni herramientas de formato o linting.
 
+La tarea `check` está definida en `package.json`. Aunque la combinación del gestor `npm` y la tarea `check` se representa como `npm check` en la configuración de comprobación del objetivo, su ejecución mediante npm se realiza con:
+
+```bash
+npm run check
+```
+
+Esta tarea utiliza `tsc --noEmit` para comprobar la sintaxis y los tipos del código TypeScript, sin generar archivos JavaScript ni ejecutar las pruebas.
+
