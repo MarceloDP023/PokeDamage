@@ -1,0 +1,7 @@
+lenguaje: typescript
+
+entidad: src/modelo/pokemon.ts
+
+automatizar:
+  fichero: package.json
+  orden: npm
