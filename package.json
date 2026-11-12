@@ -1,0 +1,13 @@
+
+{
+  "name": "pokedamage",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
