@@ -1,6 +1,6 @@
 lenguaje: typescript
 
-entidad: src/modelo/pokemon.ts
+entidad: src/modelo/coleccion_acciones.ts
 
 automatizar:
   fichero: package.json
