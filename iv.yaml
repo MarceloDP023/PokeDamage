@@ -4,4 +4,4 @@ entidad: src/modelo/coleccion_acciones.ts
 
 automatizar:
   fichero: package.json
-  orden: npm
+  orden: npm run
