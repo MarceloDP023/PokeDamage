@@ -1,0 +1,7 @@
+lenguaje: typescript
+
+entidad: src/modelo/coleccion_acciones.ts
+
+automatizar:
+  fichero: package.json
+  orden: npm run

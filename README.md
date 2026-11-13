@@ -90,3 +90,27 @@ organizados en milestones.
 
 [Obtención de los Datos](datos/datos.md)
 
+## Automatización
+
+La comparación y justificación de las herramientas utilizadas para automatizar el proyecto se encuentra en [docs/automatizacion.md](docs/automatizacion.md).
+
+Las tareas del proyecto se definen en `package.json`.
+
+## Comprobación de sintaxis de una clase
+
+La entidad seleccionada es `Coleccion_Acciones`, ubicada en [`src/modelo/coleccion_acciones.ts`](src/modelo/coleccion_acciones.ts).
+
+**Qué es:** representa la colección de acciones que se utilizarán para analizar situaciones concretas de combate Pokémon.
+
+**Qué hará:** permitirá organizar las acciones disponibles para estudiar diferentes decisiones dentro de una situación de combate. Su comportamiento se desarrollará conforme avance la implementación del dominio.
+
+**Orden check:**
+
+```bash
+npm run check
+```
+
+Esta orden ejecuta `tsc --noEmit`, definido en `package.json`, que comprueba la sintaxis y los tipos de los archivos TypeScript sin generar archivos JavaScript. No ejecuta pruebas ni herramientas de formato o linting.
+
+
+
