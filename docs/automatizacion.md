@@ -102,7 +102,7 @@ Dado que las tres alternativas permiten ejecutar scripts definidos en `package.j
 
 ## Elección de la herramienta
 
-Las tres alternativas permiten cubrir las necesidades actuales del proyecto, por lo que la elección se realiza teniendo en cuenta conjuntamente las mediciones obtenidas y el coste de introducir cada herramienta.
+Las tres alternativas permiten cubrir las necesidades actuales del proyecto, por lo que la elección se realiza teniendo en cuenta conjuntamente las mediciones obtenidas y el coste de introducir cada herramienta (Donde mayoritariamente se ha tenido en cuenta el segundo factor, ir a lo mas simple).
 
 En las pruebas realizadas, `npm` obtuvo el menor tiempo de instalación limpia, con 3.895 s. `yarn` fue claramente más rápido al reutilizar la caché, con 0.430 s, mientras que `pnpm` obtuvo los mayores tiempos en ambas situaciones.
 
