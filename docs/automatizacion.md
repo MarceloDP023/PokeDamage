@@ -55,4 +55,6 @@ De esta forma, se comprueba que el código TypeScript puede compilarse correctam
 | Herramienta | Instalación limpia | Instalación con caché |
 |---|---:|---:|
 | npm | 3.895 s | 2.492 s  |
+| pnpm | 7.657 s | 5.824 s |
+
 
