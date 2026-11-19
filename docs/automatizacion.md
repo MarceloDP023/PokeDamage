@@ -50,3 +50,9 @@ tsc --noEmit
 
 De esta forma, se comprueba que el código TypeScript puede compilarse correctamente sin generar archivos de salida ni ejecutar tests.
 
+## Comparaciones de tiempos de instalación
+
+| Herramienta | Instalación limpia | Instalación con caché |
+|---|---:|---:|
+| npm | 3.895 s | 2.492 s  |
+
