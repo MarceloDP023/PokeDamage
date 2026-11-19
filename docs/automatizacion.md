@@ -56,5 +56,7 @@ De esta forma, se comprueba que el código TypeScript puede compilarse correctam
 |---|---:|---:|
 | npm | 3.895 s | 2.492 s  |
 | pnpm | 7.657 s | 5.824 s |
+| yarn | 5.631 s | 0.430 s |
+
 
 
