@@ -106,7 +106,7 @@ Las tres alternativas permiten cubrir las necesidades actuales del proyecto, por
 
 En las pruebas realizadas, `npm` obtuvo el menor tiempo de instalación limpia, con 3.895 s. `yarn` fue claramente más rápido al reutilizar la caché, con 0.430 s, mientras que `pnpm` obtuvo los mayores tiempos en ambas situaciones.
 
-Para PokeDamage se ha elegido `npm`. El proyecto no necesita características específicas de `pnpm` o `yarn` y `npm` permite definir las tareas necesarias directamente en `package.json` sin incorporar otra herramienta al entorno, la simplicidad ha sido la decisiva en la decisión final. 
+Para PokeDamage se ha elegido `npm`. El proyecto no necesita características específicas de `pnpm` o `yarn` y `npm` permite definir las tareas necesarias directamente en `package.json` sin incorporar otra herramienta al entorno, la simplicidad ha sido el factor decisivo en la decisión final. 
 
 Aunque `yarn` obtuvo un mejor resultado en la instalación con caché, esta diferencia no compensa en este caso la necesidad de incorporar una herramienta adicional para un proyecto cuyas necesidades de automatización son sencillas.
 
