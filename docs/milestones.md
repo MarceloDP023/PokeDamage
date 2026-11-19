@@ -23,6 +23,8 @@ Se considerará válido cuando los tests definidos se ejecuten automáticamente 
 permitan comprobar que el comportamiento incorporado responde a los casos
 desarrollados a partir de la HU001.
 
+Además, el proyecto dispondrá de herramientas que permitan automatizar las tareas habituales de desarrollo, comenzando por la comprobación de la sintaxis y compilación del código fuente.
+
 
 ## Milestone 2 — Primera versión para uso externo
 
