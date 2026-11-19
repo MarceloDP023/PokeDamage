@@ -1,3 +1,3 @@
 
-export class Coleccion_Acciones {
+export class ColeccionSituacionesCombate {
 }
