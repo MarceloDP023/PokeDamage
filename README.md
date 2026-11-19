@@ -98,7 +98,7 @@ Las tareas del proyecto se definen en `package.json`.
 
 ## Comprobación de sintaxis de una clase
 
-La entidad seleccionada es `Coleccion_Situaciones_Combate`, ubicada en [`src/modelo/coleccion_situaciones_combate.ts`](src/modelo/coleccion_situaciones_combate.ts).
+La entidad seleccionada es `ColeccionSituacionesCombate`, ubicada en [`src/modelo/coleccion_situaciones_combate.ts`](src/modelo/coleccion_situaciones_combate.ts).
 
 **Qué es:** representa la colección de situaciones de combate, donde se calcula el daño de un movimiento ofensivo.
 
