@@ -96,19 +96,13 @@ La comparación y justificación de las herramientas utilizadas para automatizar
 
 Las tareas del proyecto se definen en `package.json`.
 
-## Comprobación de sintaxis de una clase
-
-La entidad seleccionada es `ColeccionSituacionesCombate`, ubicada en [`src/modelo/coleccion_situaciones_combate.ts`](src/modelo/coleccion_situaciones_combate.ts).
-
-**Qué es:** representa la colección de situaciones de combate, donde se calcula el daño de un movimiento ofensivo.
-
-**Qué hará:** permitirá organizar las diferentes situaciones de combate que pueda hacer el usuario y posteriormente compararlas entre ellas para saber cual le conviene mas al usuario.
-
-**Orden check:**
+Para comprobar que el código TypeScript existente es correcto se utiliza:
 
 ```bash
 npm run check
 ```
+
+Esta tarea ejecuta `tsc --noEmit`, comprobando el código fuente sin generar archivos JavaScript ni ejecutar tests.
 
 Esta orden ejecuta `tsc --noEmit`, definido en `package.json`, que comprueba la sintaxis y los tipos de los archivos TypeScript sin generar archivos JavaScript. No ejecuta pruebas ni herramientas de formato o linting.
 
