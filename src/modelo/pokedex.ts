@@ -2,6 +2,6 @@ import { Pokemon } from './pokemon.ts';
 import { Movimiento } from './movimiento.ts';
 
 export class Pokedex {
-	POKEMON: Map<number, Pokemon>;
-	MOVIMIENTOS: Map<number, Movimiento>
+	static readonly POKEMON: ReadonlyMap<number, Pokemon>;
+	static readonly MOVIMIENTOS: ReadonlyMap<number, Movimiento>
 }
