@@ -12,7 +12,7 @@ Las pruebas se realizan en Docker con Node.js 22.23.5. Se utiliza `time` para la
 - Instalación con caché: 0.863 s.
 - Tiempo medio de `check`: 0.663 s.
 
-Evidencias:
+Capturas:
 - [Instalaciones de npm](medidas_instalaciones/instalacion_npm.png)
 - [Medición de check](medidas_instalaciones/tarea_check_npm.png)
 
@@ -22,7 +22,7 @@ Evidencias:
 - Instalación con caché: 1.311 s.
 - Tiempo medio de `check`: 1.043 s.
 
-Evidencias:
+Capturas:
 - [Instalaciones de pnpm](medidas_instalaciones/instalacion_pnpm.png)
 - [Medición de check](medidas_instalaciones/tarea_check_pnpm.png)
 
@@ -32,7 +32,7 @@ Evidencias:
 - Instalación con caché: 0.596 s.
 - Tiempo medio de `check`: 0.902 s.
 
-Evidencias:
+Capturas:
 - [Instalaciones de Yarn](medidas_instalaciones/instalacion_yarn.png)
 - [Medición de check](medidas_instalaciones/tarea_check_yarn.png)
 
