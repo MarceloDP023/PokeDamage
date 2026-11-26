@@ -1,0 +1,20 @@
+export enum Tipo {
+    bicho,
+    siniestro,
+    dragon,
+    electrico,
+    hada,
+    lucha,
+    fuego,
+    volador,
+    fantasma,
+    planta,
+    tierra,
+    hielo,
+    normal,
+    veneno,
+    psiquico,
+    roca,
+    acero,
+    agua
+}
