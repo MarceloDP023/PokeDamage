@@ -5,3 +5,4 @@ entidad: src/modelo/coleccion_situaciones_combate.ts
 automatizar:
   fichero: package.json
   orden: npm run
+  test: test/coleccion_situaciones_combate.test.mjs
