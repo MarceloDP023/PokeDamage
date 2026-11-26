@@ -103,3 +103,32 @@ npm run check
 ```
 
 Esta tarea ejecuta `tsc --noEmit`, comprobando el código fuente sin generar archivos JavaScript ni ejecutar tests.
+
+### Instalación de Node.js y npm
+
+En Linux, utilizamos **nvm** para facilitar la instalación y gestión de versiones de Node.js.
+
+Instalamos nvm:
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+
+Una vez instalado y cargado nvm, instalamos Node.js (incluye npm):
+
+```bash
+nvm install --lts
+```
+
+Comprobamos la instalación (Solo como comprobación, este paso no es necesario):
+
+```bash
+node --version
+npm --version
+```
+
+Instalamos las dependencias del proyecto:
+
+```bash
+npm ci
+```
