@@ -71,6 +71,12 @@ Esta lógica permitirá comparar varias decisiones dentro de una misma situació
 por ejemplo dos movimientos posibles, sin necesidad de simular un combate
 completo ni recorrer todas las combinaciones existentes en el juego.
 
+## Tests
+
+Para ejecutar los tests del proyecto:
+
+    npm run test
+
 ## Planificación
 
 La planificación inicial del proyecto se ha realizado a partir del recorrido del
