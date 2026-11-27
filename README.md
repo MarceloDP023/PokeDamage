@@ -71,6 +71,30 @@ Esta lógica permitirá comparar varias decisiones dentro de una misma situació
 por ejemplo dos movimientos posibles, sin necesidad de simular un combate
 completo ni recorrer todas las combinaciones existentes en el juego.
 
+
+## Automatización
+
+La comparación y justificación de las herramientas utilizadas para automatizar el proyecto se encuentra en [docs/automatizacion.md](docs/automatizacion.md).
+
+Las tareas del proyecto se definen en `package.json`.
+
+Para comprobar que el código TypeScript existente es correcto se utiliza:
+
+```bash
+npm run check
+```
+
+Esta tarea ejecuta `tsc --noEmit`, comprobando el código fuente sin generar archivos JavaScript ni ejecutar tests.
+
+Para ejecutar los tests del proyecto se utiliza:
+
+```bash
+npm run test
+```
+
+Esta tarea ejecuta `node --test`, encargado de ejecutar los tests automatizados del proyecto.
+
+
 ## Planificación
 
 La planificación inicial del proyecto se ha realizado a partir del recorrido del
