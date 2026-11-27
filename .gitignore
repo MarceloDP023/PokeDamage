@@ -67,3 +67,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+pnpm-lock.yaml
+yarn.lock
+
+node_modules/
